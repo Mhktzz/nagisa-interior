@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.39cc77ed.js",
+    "main.css": "/static/css/main.759c0840.css",
+    "main.js": "/static/js/main.0bbcb373.js",
     "static/js/453.23fbf804.chunk.js": "/static/js/453.23fbf804.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/5a. foto - resepsionis.jpg": "/static/media/5a. foto - resepsionis.8d0919914a2c0202c4a3.jpg",
+    "static/media/3b. foto - tentang kami (2).jpg": "/static/media/3b. foto - tentang kami (2).c487699645319a9791bf.jpg",
+    "static/media/5d. foto - working space kampus.jpg": "/static/media/5d. foto - working space kampus.2685311b5c7502da6c67.jpg",
+    "static/media/4a. foto (layanan 1) - interior rumah.jpg": "/static/media/4a. foto (layanan 1) - interior rumah.d31c7a42083e51784897.jpg",
+    "static/media/5c. foto - perpustakaan tema jepang.jpg": "/static/media/5c. foto - perpustakaan tema jepang.62a05ef5cf1a99bc64e0.jpg",
+    "static/media/4b. foto (layanan 2) - interior kantor.jpg": "/static/media/4b. foto (layanan 2) - interior kantor.c8ff222d96cd7550c890.jpg",
+    "static/media/4c. foto (layanan 3) - custom furniture.jpg": "/static/media/4c. foto (layanan 3) - custom furniture.73d8e08bb6dcc3d6a811.jpg",
+    "static/media/3c. foto - tentang kami (3).jpg": "/static/media/3c. foto - tentang kami (3).125716450c31273861f0.jpg",
+    "static/media/1. foto - judul paling atas.jpg": "/static/media/1. foto - judul paling atas.f56c8681b2f7a385d70d.jpg",
+    "static/media/3a. foto - tentang kami (1).jpg": "/static/media/3a. foto - tentang kami (1).1bd1205cd44556905cd8.jpg",
+    "static/media/5b. foto - kitchen set.jpg": "/static/media/5b. foto - kitchen set.629ba700cde19a9f2814.jpg",
+    "static/media/logo-nagisa-horizontal.png": "/static/media/logo-nagisa-horizontal.36e1a95bd3b77a947680.png",
+    "static/media/logo-nagisa-bw-horizontal.png": "/static/media/logo-nagisa-bw-horizontal.407abbb8429872c1bdb0.png",
     "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.39cc77ed.js.map": "/static/js/main.39cc77ed.js.map",
+    "main.759c0840.css.map": "/static/css/main.759c0840.css.map",
+    "main.0bbcb373.js.map": "/static/js/main.0bbcb373.js.map",
     "453.23fbf804.chunk.js.map": "/static/js/453.23fbf804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.39cc77ed.js"
+    "static/css/main.759c0840.css",
+    "static/js/main.0bbcb373.js"
   ]
 }
