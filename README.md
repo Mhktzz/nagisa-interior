@@ -1,25 +1,25 @@
 # 🎨 Nagisa Interior - Landing Page
 
-Selamat datang di repositori proyek Nagisa Interior! Ini adalah sebuah landing page modern yang dibangun untuk sebuah perusahaan desain interior, diadaptasi dari desain HTML statis menjadi aplikasi React yang dinamis dan modular dengan Vite.
+Selamat datang di repositori proyek Nagisa Interior! Ini adalah sebuah landing page modern yang dibangun sebagai aplikasi React yang dinamis dan modular.
 
 ## 📖 Tentang Proyek Ini
 
-Proyek ini bertujuan untuk mendemonstrasikan layanan Nagisa Interior Design kepada publik dan memberikan askes langsung untuk memesan jasa kami. Fokus utama adalah pada pembuatan komponen yang dapat digunakan kembali (_reusable_), manajemen state yang efisien, dan styling dengan CSS murni.
+Proyek ini bertujuan untuk mendemonstrasikan layanan Nagisa Interior Design kepada publik dan memberikan akses langsung untuk memesan jasa kami. Fokus utama adalah pada pembuatan komponen yang dapat digunakan kembali (_reusable_), manajemen state yang efisien, dan styling dengan CSS murni.
 
 ## ✨ Fitur Utama
 
 - **📱 Desain Responsif:** Tampilan yang optimal di berbagai perangkat, mulai dari mobile hingga desktop.
 - **🧩 Arsitektur Berbasis Komponen:** Setiap bagian dari halaman (Navbar, Hero, Services, dll.) dipecah menjadi komponen React yang terisolasi.
-- **💨 Pengembangan Super Cepat:** Dibuat dengan [Vite](https://vitejs.dev/) untuk pengalaman development yang instan dan _Hot Module Replacement_ (HMR) yang kilat.
+- **💨 Pengembangan Cepat:** Menggunakan skrip npm/yarn untuk menjalankan server pengembangan dan build.
 - **📜 Efek & Interaktivitas:** Termasuk efek navbar saat scroll, menu mobile, dan efek hover yang halus.
 - **💅 Styling Murni:** Seluruh styling dibuat dari awal menggunakan CSS murni untuk kontrol penuh dan performa yang ringan.
 
 ## 💻 Teknologi yang Digunakan
 
-- [**Vite**](https://vitejs.dev/) - _Build tool_ generasi baru.
-- [**React.js**](https://reactjs.org/) - _Library_ JavaScript untuk membangun antarmuka pengguna.
-- [**CSS3**](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling kustom dari nol.
-- [**Font Awesome**](https://fontawesome.com/) - Untuk ikonografi yang kaya.
+- **Node.js & npm / yarn** - untuk manajemen dependensi dan skrip.
+- **React.js** - _Library_ JavaScript untuk membangun antarmuka pengguna.
+- **CSS3** - Styling kustom dari nol.
+- **Font Awesome** - Untuk ikonografi yang kaya.
 
 ## 🚀 Getting Started
 
@@ -37,13 +37,13 @@ Pastikan Anda sudah menginstal Node.js dan npm (atau yarn) di komputer Anda.
 1.  **Clone repositori ini**
 
     ```bash
-    git clone [https://github.com/](https://github.com/)[NAMA_PENGGUNA_ANDA]/[NAMA_REPOSITORI_ANDA].git
+    git clone https://github.com/NAMA_PENGGUNA_ANDA/NAMA_REPOSITORI_ANDA.git
     ```
 
 2.  **Masuk ke direktori proyek**
 
     ```bash
-    cd [NAMA_REPOSITORI_ANDA]
+    cd NAMA_REPOSITORI_ANDA
     ```
 
 3.  **Instal semua dependensi**
@@ -59,10 +59,20 @@ Pastikan Anda sudah menginstal Node.js dan npm (atau yarn) di komputer Anda.
     ```
 
 4.  **Jalankan server pengembangan**
+
+    Periksa skrip yang tersedia di file package.json lalu jalankan skrip yang sesuai. Contoh umum:
+
+    ```bash
+    npm start
+    ```
+
+    atau
+
     ```bash
     npm run dev
     ```
-    Buka `http://localhost:5173` (atau port yang tertera di terminal) di browser Anda.
+
+    Buka `http://localhost:3000` atau port yang ditunjukkan di terminal di browser Anda.
 
 ## 📁 Struktur Folder
 
