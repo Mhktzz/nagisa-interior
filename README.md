@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 🎨 Nagisa Interior - Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Selamat datang di repositori proyek Nagisa Interior! Ini adalah sebuah landing page modern yang dibangun untuk sebuah perusahaan desain interior, diadaptasi dari desain HTML statis menjadi aplikasi React yang dinamis dan modular dengan Vite.
 
-## Available Scripts
+## 📖 Tentang Proyek Ini
 
-In the project directory, you can run:
+Proyek ini bertujuan untuk mendemonstrasikan layanan Nagisa Interior Design kepada publik dan memberikan askes langsung untuk memesan jasa kami. Fokus utama adalah pada pembuatan komponen yang dapat digunakan kembali (_reusable_), manajemen state yang efisien, dan styling dengan CSS murni.
 
-### `npm start`
+## ✨ Fitur Utama
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **📱 Desain Responsif:** Tampilan yang optimal di berbagai perangkat, mulai dari mobile hingga desktop.
+- **🧩 Arsitektur Berbasis Komponen:** Setiap bagian dari halaman (Navbar, Hero, Services, dll.) dipecah menjadi komponen React yang terisolasi.
+- **💨 Pengembangan Super Cepat:** Dibuat dengan [Vite](https://vitejs.dev/) untuk pengalaman development yang instan dan _Hot Module Replacement_ (HMR) yang kilat.
+- **📜 Efek & Interaktivitas:** Termasuk efek navbar saat scroll, menu mobile, dan efek hover yang halus.
+- **💅 Styling Murni:** Seluruh styling dibuat dari awal menggunakan CSS murni untuk kontrol penuh dan performa yang ringan.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Teknologi yang Digunakan
 
-### `npm test`
+- [**Vite**](https://vitejs.dev/) - _Build tool_ generasi baru.
+- [**React.js**](https://reactjs.org/) - _Library_ JavaScript untuk membangun antarmuka pengguna.
+- [**CSS3**](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling kustom dari nol.
+- [**Font Awesome**](https://fontawesome.com/) - Untuk ikonografi yang kaya.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di mesin lokal Anda.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pastikan Anda sudah menginstal Node.js dan npm (atau yarn) di komputer Anda.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Node.js** (versi 16 atau lebih tinggi direkomendasikan)
+- **npm** / **yarn**
 
-### `npm run eject`
+### Instalasi
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  **Clone repositori ini**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    git clone [https://github.com/](https://github.com/)[NAMA_PENGGUNA_ANDA]/[NAMA_REPOSITORI_ANDA].git
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2.  **Masuk ke direktori proyek**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    cd [NAMA_REPOSITORI_ANDA]
+    ```
 
-## Learn More
+3.  **Instal semua dependensi**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    atau jika Anda menggunakan yarn:
 
-### Code Splitting
+    ```bash
+    yarn install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4.  **Jalankan server pengembangan**
+    ```bash
+    npm run dev
+    ```
+    Buka `http://localhost:5173` (atau port yang tertera di terminal) di browser Anda.
 
-### Analyzing the Bundle Size
+## 📁 Struktur Folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Proyek ini menggunakan struktur folder yang terorganisir untuk memudahkan navigasi dan pengembangan.
 
-### Making a Progressive Web App
+```
+nagisa-interior/
+├─ node_modules/
+├─ public/
+│  ├─ index.html
+│  ├─ logo-nagisa-icon.png
+│  ├─ manifest.json
+│  └─ favicon.ico (opsional)
+├─ src/
+│  ├─ index.js 🚀 Titik masuk utama aplikasi React
+│  ├─ App.js 📦 Komponen utama yang merakit semua halaman
+│  ├─ App.css 🎨 Stylesheet global
+│  └─ assets/
+│     └─ images/
+├─ .gitignore
+├─ package.json
+├─ package-lock.json / yarn.lock
+└─ README.md (You are here!)
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Berkontribusi
 
-### Advanced Configuration
+Kontribusi, isu, dan permintaan fitur sangat kami terima. Jangan lupa untuk membuat _pull request_ atau membuka _issue_ baru.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Terima kasih telah menggunakan Nagisa Interior Design! Semoga dapat memberikan keperluan yang tepat! 🚀
