@@ -37,7 +37,7 @@ Pastikan Anda sudah menginstal Node.js dan npm (atau yarn) di komputer Anda.
 1.  **Clone repositori ini**
 
     ```bash
-    git clone https://github.com/NAMA_PENGGUNA_ANDA/NAMA_REPOSITORI_ANDA.git
+    git clone https://github.com/mhktzz/nagisa-interior.git
     ```
 
 2.  **Masuk ke direktori proyek**
@@ -64,12 +64,6 @@ Pastikan Anda sudah menginstal Node.js dan npm (atau yarn) di komputer Anda.
 
     ```bash
     npm start
-    ```
-
-    atau
-
-    ```bash
-    npm run dev
     ```
 
     Buka `http://localhost:3000` atau port yang ditunjukkan di terminal di browser Anda.
